@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 now=$(date '+%H')
 if [ $now -lt 12 ] ;then
     list=$(ls -la)
